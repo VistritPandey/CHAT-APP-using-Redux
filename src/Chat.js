@@ -18,7 +18,7 @@ function Chat(props) {
             <div className="chat__input">
                 <AddCircleIcon fontSize="large"/>
                 <form>
-                    <input placeholder={`Message `}/>
+                    <input placeholder={`Message Test`}/>
                     <button className="chat__inputButton" type="submit">Send Message</button>
                 </form>
                 <div className="chat__inputIcons">
