@@ -3,6 +3,8 @@ import './Sidebar.css'
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore"
 import AddIcon from "@material-ui/icons/Add"
 import SidebarChannel from "./SidebarChannel.js"
+import { Avatar } from "@material-ui/core"
+import SettingsIcon from "@material-ui/icons/Settings"
 
 
 function Sidebar() {
@@ -22,6 +24,18 @@ function Sidebar() {
                 </div>
                 <div className="sidebar__groupsList">
                     <SidebarChannel />
+                    <SidebarChannel />
+                    <SidebarChannel />
+                </div>
+            </div>
+            <div className="sidebar__profile">
+                <Avatar />
+                <div className="sidebar__profileInfo">
+                    <h3>Vistrit</h3>
+                    <p>ACTIVE</p>
+                </div>
+                <div className="sidebar__profileIcons">
+                    <SettingsIcon />
                 </div>
             </div>
         </div>

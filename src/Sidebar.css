@@ -35,3 +35,22 @@
     display: flex;
     align-items: center;
 }
+.sidebar__profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    background-color: #2f3135;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+.sidebar__profileInfo {
+    flex: 1;
+    padding: 10px;
+}
+.sidebar__profileInfo >h3{
+    color: white;
+}
+.sidebar__profileIcons > .MuiSvgIcon-root {
+    padding:10px;
+}
