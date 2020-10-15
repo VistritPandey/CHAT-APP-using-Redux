@@ -14,3 +14,11 @@
     font-size: 25px;
     padding: 8px;
 }
+.sidebar__profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
