@@ -14,3 +14,12 @@
     color:white ;
     border-bottom: 3px solid #26282c;
 }
+.sidebar__groups{
+    cursor: pointer;
+}
+.sidebar__groups{
+    flex: 1;
+}
+.sidebar__addGroup:hover{
+    color: white
+}
