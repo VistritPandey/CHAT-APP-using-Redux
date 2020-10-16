@@ -1,4 +1,6 @@
-Deployed at: https://vistrit-chat.web.app/
+## Deployed at: https://vistrit-chat.web.app/
+
+To use it a your personal project, download the file on your local disk, delete the node_modules and package_lock.json file, and replace the firebase.js module's API with your personal API Key from Firebase cloud
 
 ## Available Scripts
 
