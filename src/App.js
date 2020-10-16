@@ -34,10 +34,7 @@ function App() {
     <div className="App">
       {user ? (
         <>
-          {/*Sidebar */}
           <Sidebar />
-
-          {/*Chat */}
           <Chat />
         </>
       ) : (

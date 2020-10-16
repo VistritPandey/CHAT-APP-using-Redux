@@ -59,7 +59,7 @@ function Chat() {
             value={input}
             disbled={!channelId}
             onChange={(e) => setInput(e.target.value)}
-            placeholder={`Message #${channelName}`}
+            placeholder={`Message ${channelName}`}
           />
           <button
             onClick={sendMessage}

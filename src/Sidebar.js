@@ -26,7 +26,7 @@ function Sidebar() {
   }, []);
 
   const handleAddChannel = () => {
-    const channelName = prompt("Enter a new channel name");
+    const channelName = prompt("Enter a new group name");
     if(channelName)
     {
       db.collection("channels").add({
@@ -46,7 +46,7 @@ function Sidebar() {
         <div className="sidebar__channelsHeader">
           <div className="sidebar__header">
             <ExpandMoreIcon />
-            <h4>Text Channels</h4>
+            <h4>Text groups</h4>
           </div>
 
           <AddIcon onClick={handleAddChannel} className="sidebar__addChannel" />
